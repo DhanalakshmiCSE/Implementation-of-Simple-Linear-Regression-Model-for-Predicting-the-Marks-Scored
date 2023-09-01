@@ -89,7 +89,7 @@ print(y_pred1)
 
 ## Output:
 
-![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/51b4bfcc-d437-42ee-8cec-844fbd27a00a)
+![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/78e290ae-6aa6-4cd3-83b3-892aa9922bc0)
 
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/dae34db1-36e8-4b02-a09b-a26992db73ea)
 
