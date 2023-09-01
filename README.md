@@ -88,15 +88,23 @@ print(y_pred1)
 ```
 
 ## Output:
+
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/51b4bfcc-d437-42ee-8cec-844fbd27a00a)
+
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/dae34db1-36e8-4b02-a09b-a26992db73ea)
+
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/ad576082-0aec-4a2d-92ef-909f44549315)
+
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/7a3d444b-3400-446a-9182-b4594afa2679)
+
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/6522149c-1337-464f-81c9-9cf72f338e5f)
+
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/57ab15d8-15c3-4e89-a0a8-4d2114573a76)
 
 Values of MSE, MAE and RMSE
+
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/6e2dd2dc-a79d-4f33-985b-538d33868a38)
+
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/523f033a-92ae-4cc0-afee-1d5dd26569be)
 
 ## Result:
