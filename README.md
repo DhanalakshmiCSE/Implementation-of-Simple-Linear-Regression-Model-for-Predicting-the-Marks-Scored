@@ -40,7 +40,6 @@ print(x)
 y=dataset.iloc[:,-1].values
 print(y)
 
-![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/dae34db1-36e8-4b02-a09b-a26992db73ea)
 
 
 from sklearn.model_selection import train_test_split
@@ -50,7 +49,7 @@ print(x_test)
 print(y_train)
 print(y_test)
 
-![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/ad576082-0aec-4a2d-92ef-909f44549315)
+
 
 from sklearn.linear_model import LinearRegression
 reg=LinearRegression()
@@ -58,7 +57,7 @@ reg.fit(x_train,y_train)
 y_pred =reg.predict(x_test)
 print(y_pred)
 print(y_test)
-![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/7a3d444b-3400-446a-9182-b4594afa2679)
+
 plt.scatter(x_train,y_train,color="green")
 plt.plot(x_train,reg.predict(x_train),color="silver")
 plt.title('Training set(H vs S)')
@@ -72,13 +71,33 @@ plt.xlabel("Hours")
 plt.ylabel("scores")
 plt.show()
 
+
+mse=mean_squared_error(y_test,y_pred)
+print('MSE = ',mse)
+mae=mean_absolute_error(y_test,y_pred)
+print('MAE = ',mae)
+rmse=np.sqrt(mse)
+print("RMSE = ",rmse)
+
+
+a=np.array([[10]])
+y_pred1=reg.predict(a)
+print(y_pred1)
+
 */
 ```
 
 ## Output:
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/51b4bfcc-d437-42ee-8cec-844fbd27a00a)
+![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/dae34db1-36e8-4b02-a09b-a26992db73ea)
+![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/ad576082-0aec-4a2d-92ef-909f44549315)
+![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/7a3d444b-3400-446a-9182-b4594afa2679)
+![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/6522149c-1337-464f-81c9-9cf72f338e5f)
+![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/57ab15d8-15c3-4e89-a0a8-4d2114573a76)
 
-
+Values of MSE, MAE and RMSE
+![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/6e2dd2dc-a79d-4f33-985b-538d33868a38)
+![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/523f033a-92ae-4cc0-afee-1d5dd26569be)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
