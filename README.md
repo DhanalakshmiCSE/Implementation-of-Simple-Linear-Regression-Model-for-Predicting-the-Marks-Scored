@@ -34,7 +34,6 @@ import matplotlib.pyplot as plt
 dataset=pd.read_csv('student_scores.csv')
 print(dataset.head())
 print(dataset.tail())
-![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/51b4bfcc-d437-42ee-8cec-844fbd27a00a)
 
 x=dataset.iloc[:,:-1].values
 print(x)
@@ -77,6 +76,7 @@ plt.show()
 ```
 
 ## Output:
+![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/51b4bfcc-d437-42ee-8cec-844fbd27a00a)
 
 
 
