@@ -88,24 +88,43 @@ print(y_pred1)
 ```
 
 ## Output:
+## 1. df.head():
 
-![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/78e290ae-6aa6-4cd3-83b3-892aa9922bc0)
+![Screenshot 2023-10-17 151230](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/44991680-04c7-4f68-9951-212aef9af494)
+
+## 2. df.tail():
+
+![Screenshot 2023-10-17 151254](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/508f6ef6-13a6-4363-b537-cb1149ff769c)
+
+## 3.Array value of X:
 
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/dae34db1-36e8-4b02-a09b-a26992db73ea)
 
-![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/ad576082-0aec-4a2d-92ef-909f44549315)
+## 4.Array value of Y:
+
+![Screenshot 2023-10-17 151843](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/d0bffb42-101b-49f8-a1d6-ed64a705babc)
+
+## 5.Values of Y prediction:
 
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/7a3d444b-3400-446a-9182-b4594afa2679)
 
+##  6.Array values of Y test:
+
+![Screenshot 2023-10-17 160227](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/cb6166b7-3609-4777-896e-86f540a7e3bb)
+
+## 7.Training test graph:
+
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/6522149c-1337-464f-81c9-9cf72f338e5f)
+
+## 8.Test set graph:
 
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/57ab15d8-15c3-4e89-a0a8-4d2114573a76)
 
-Values of MSE, MAE and RMSE
+
+## 9.Values of MSE,MAE,RMSE:
 
 ![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/6e2dd2dc-a79d-4f33-985b-538d33868a38)
 
-![image](https://github.com/DhanalakshmiCSE/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119477832/523f033a-92ae-4cc0-afee-1d5dd26569be)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
